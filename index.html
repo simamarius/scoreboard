@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Scoreboard Stadium</title>
+</head>
+<body>
+    <button id="newgame" onclick="newGame()">New Game</button>
+   <div class="container">
+    
+        <div class="column">
+                <h3>HOME</h3>
+                <h2 id="home-score">0</h2>
+                  <div>
+                    <button id="home-btn-one" onclick="homebtn1()">+1 </button>
+                    <button id="home-btn-two" onclick="homebtn2()">+2</button>
+                    <button id="home-btn-tree" onclick="homebtn3()">+3</button>
+                  </div>
+                 
+        </div>
+        
+            <div class="column">
+                <h3>GUEST</h3>
+                <h2 id="guest-score">0</h2>
+                <div>
+                    <button id="guest-btn-one" onclick="add1()">+1</button>
+                    <button id="guest-btn-two" onclick="add2()">+2</button>
+                    <button id="guest-btn-tree" onclick="add3()">+3</button>
+                </div>
+                
+            </div>
+                
+    
+    <script src="js-file.js"></script>
+</body>
+
+</html>
